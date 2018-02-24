@@ -1,0 +1,51 @@
+#mainContainer {
+    margin-top: 150px;
+}
+
+#mainBackground {
+    background: url(../../images/bg/main-bg.jpg) center center;
+    height: 100vh;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    right: 0;
+    left: 0;
+    background-size: cover;
+}
+
+.container-fluid {
+    width: 75%;
+}
+
+.media {
+    cursor: pointer;
+}
+
+.btn-plus {
+    margin-left: 3rem;
+}
+
+.small-image {
+    width: 64px;
+    height: 64px;
+}
+
+.none {
+    display: none;
+}
+
+@media screen and (max-width: 1400px) {
+    .title-plus {
+        font-size: 1.2rem;
+    }
+
+    .btn-plus {
+        margin-left: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .title-plus {
+        font-size: 1.6rem;
+    }
+}
