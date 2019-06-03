@@ -1,2 +1,3 @@
-# school
-php project for managing college courses for students
+# School
+
+PHP Project for managing college courses for students.
